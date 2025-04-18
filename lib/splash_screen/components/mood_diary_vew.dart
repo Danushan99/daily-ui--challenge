@@ -80,7 +80,7 @@ class MoodDiaryVew extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Mood Dairy",
+                "Crypto-Simplified",
                 style: TextStyle(fontSize: 26.0, fontWeight: FontWeight.bold),
               ),
               SlideTransition(
@@ -91,7 +91,7 @@ class MoodDiaryVew extends StatelessWidget {
                     padding: EdgeInsets.only(
                         left: 64, right: 64, top: 16, bottom: 16),
                     child: Text(
-                      "Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore",
+                      "Swap, buy and sell your crypto at the market price With all your cryptocurriencies in one spot, managing them is made simple.",
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -104,7 +104,7 @@ class MoodDiaryVew extends StatelessWidget {
                   child: Container(
                     constraints: BoxConstraints(maxWidth: 350, maxHeight: 250),
                     child: Image.asset(
-                      'assets/introduction_animation/mood_dairy_image.png',
+                      'assets/introduction_animation/tansfer.png',
                       fit: BoxFit.contain,
                     ),
                   ),
